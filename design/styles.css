@@ -1,0 +1,96 @@
+body {
+    background-color: #f3e6d9;
+}
+
+h1 {
+    color: #323232;
+    font-family: 'Young Serif', serif;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+  padding-left: 20px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.recipe-card p {
+    color: #5d5957;
+    font-size: 14px;
+}
+
+.recipe-image {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.prep-time{
+    background-color: #fff7fc;
+    padding: 20px;
+}
+
+.prep-time strong {
+    color: #635e58;
+}
+
+.prep-time h2 {
+    color: #772c4a;
+}
+
+.prep-time li::marker {
+    color: #772c4a;
+}
+
+.recipe-card h2 {
+    color: #7c452d;
+}
+
+.recipe-card li::marker {
+    color: #7c452d;
+}
+
+.instructions strong {
+    color: #635e58;
+}
+
+.instructions li {
+  margin-bottom: 15px;
+}
+
+.nutrition {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.nutrition tr {
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 2.5;
+}
+
+.nutrition tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition td.value {
+    color: #7c452d;
+}
+
+.attribution {
+    text-align: center;
+}
